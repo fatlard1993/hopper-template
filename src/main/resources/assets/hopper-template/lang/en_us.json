@@ -1,0 +1,5 @@
+{
+	"hopper-template.slot.on": "This slot is working. Click to shut it.",
+	"hopper-template.slot.off": "This slot is shut: nothing goes in or out. Click to open it.",
+	"hopper-template.keep": "Keep the last item in every slot, so what is left there stays as a sample of what that slot takes"
+}

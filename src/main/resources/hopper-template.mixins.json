@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "justfatlard.hopper_template.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "HopperStateMixin",
+    "HopperHoldsBackMixin",
+    "HopperOpenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

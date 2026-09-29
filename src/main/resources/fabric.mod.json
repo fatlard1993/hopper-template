@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "hopper-template",
+  "version": "${version}",
+  "name": "Hopper Template",
+  "description": "Hoppers keep a sample in each slot and shut the slots they are not using, which makes a five-item filter out of a hopper.",
+  "authors": [
+    "justfatlard"
+  ],
+  "contact": {
+    "homepage": "https://github.com/fatlard1993/hopper-template",
+    "sources": "https://github.com/fatlard1993/hopper-template",
+    "issues": "https://github.com/fatlard1993/hopper-template/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/hopper-template/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "justfatlard.hopper_template.Main"
+    ]
+  },
+  "mixins": [
+    "hopper-template.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loaderVersion}",
+    "fabric-api": "${fabricApiVersion}",
+    "minecraft": "${minecraftDependency}",
+    "java": ">=25",
+    "pandorical": ">=15.0.0"
+  }
+}

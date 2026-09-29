@@ -1,0 +1,18 @@
+{
+	"schemaVersion": 1,
+	"id": "hopper-template-gametest",
+	"version": "1.0.0",
+	"name": "Hopper Template smoke test",
+	"description": "Places a hopper, asks it about its slots, and fails if it cannot answer.",
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-client-gametest": [
+			"justfatlard.hopper_template.gametest.SmokeTest"
+		]
+	},
+	"depends": {
+		"hopper-template": "*",
+		"fabric-client-gametest-api-v1": "*"
+	}
+}
