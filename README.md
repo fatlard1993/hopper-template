@@ -2,6 +2,8 @@
 
 A Fabric mod that lets a hopper keep a sample in each slot, and shut the slots it is not using. Between the two, a hopper becomes a five-item filter.
 
+![A hopper made into a filter: iron, gold and redstone kept as samples, Keep on, and the two unused slots shut](screenshots/filter-screen.png)
+
 ## The two switches
 
 Sneak is not needed: right-click a hopper and its screen has the five slots, a switch under each one, and one more switch for the hopper itself.
