@@ -3,6 +3,9 @@
 		"A hopper that keeps a sample in each slot and can shut the slots it is not using, which is a five-item filter made out of a hopper's own rules."
 	],
 	"versions": {
+		"1.0.1": [
+			"Release notes rewritten to read plainly; nothing in play changes."
+		],
 		"1.0.0": [
 			"Keep: a slot will not give up its last item, so what is left there stays as a sample.",
 			"Off: a slot takes nothing and gives nothing, by hand or by hopper.",
