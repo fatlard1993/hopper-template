@@ -26,7 +26,10 @@ There are now no empty slots to catch anything else, and every remaining slot al
 - A hopper placed before this mod behaves exactly as it did. Nothing is written to a hopper nobody has touched, so a world where this was installed and not used carries no trace of it.
 - The settings live on the hopper, so they save, load, and travel with it.
 - Feed the filter with more than one of each item if you want it to pass items on. One of an item with **Keep** on is a sample and stays put; the second one through is the one that moves.
-- A client that cannot draw Pandorical's screens gets the vanilla hopper screen. Every switch keeps working - the settings are read by the transfer code, not by the screen - such a player just has no way to change them.
+
+## Installing
+
+Server-side, and Pandorical is required on the server. A player needs Pandorical on their client to change the switches; without it they get the vanilla hopper screen, and switches already set keep working.
 
 ## Development
 
