@@ -1,0 +1,42 @@
+{
+  "demo": {
+    "name": "Hopper Template",
+    "icon": "minecraft:hopper",
+    "about": [
+      "A hopper can keep a sample in each slot and shut the slots it isn't using, which turns it into a filter for up to five items.",
+      "Build a chest over a hopper over another chest. Open the hopper, put in one each of what should pass, turn Keep on and switch the empty slots off, then fill the top chest with the mixed pile and see what gets through."
+    ]
+  },
+  "pvp_preset": 1,
+  "needs": ["hopper-template"],
+  "preset": {
+    "name": "Hopper Template",
+    "icon": "minecraft:hopper",
+    "pvp": false,
+    "game_mode": "survival",
+    "entry_kit": [
+      {"slot": 0, "item": {"id": "minecraft:hopper", "count": 8}},
+      {"slot": 1, "item": {"id": "minecraft:chest", "count": 8}},
+      {"slot": 2, "item": {"id": "minecraft:iron_ingot", "count": 32}},
+      {"slot": 3, "item": {"id": "minecraft:gold_ingot", "count": 32}},
+      {"slot": 4, "item": {"id": "minecraft:redstone", "count": 32}},
+      {"slot": 5, "item": {"id": "minecraft:cobblestone", "count": 64}},
+      {"slot": 6, "item": {"id": "minecraft:dirt", "count": 64}},
+      {"slot": 7, "item": {"id": "minecraft:oak_planks", "count": 64}},
+      {"slot": 8, "item": {"id": "minecraft:bread", "count": 8}},
+      {"slot": 9, "item": {"id": "minecraft:coal", "count": 32}},
+      {"slot": 10, "item": {"id": "minecraft:lapis_lazuli", "count": 32}},
+      {"slot": 11, "item": {"id": "minecraft:wheat_seeds", "count": 32}},
+      {"slot": 12, "item": {"id": "minecraft:iron_pickaxe", "count": 1}}
+    ],
+    "respawn_kit": "entry",
+    "goal": "time",
+    "mobs": "off",
+    "life": 15,
+    "size": 2,
+    "world": "overworld",
+    "shape": "flat",
+    "biome": "minecraft:plains",
+    "weather": "clear"
+  }
+}
