@@ -3,6 +3,9 @@
 		"A hopper that keeps a sample in each slot and can shut the slots it is not using, which is a five-item filter made out of a hopper's own rules."
 	],
 	"versions": {
+		"1.0.4": [
+			"A demo to play in PvP Dimensions' onboarding."
+		],
 		"1.0.3": [
 			"Drop changelog notes for changes nothing in the game shows."
 		],
