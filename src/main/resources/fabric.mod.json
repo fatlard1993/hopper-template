@@ -3,7 +3,7 @@
   "id": "hopper-template",
   "version": "${version}",
   "name": "Hopper Template",
-  "description": "Hoppers keep a sample in each slot and shut the slots they are not using, which makes a five-item filter out of a hopper.",
+  "description": "Hoppers that keep a sample in each slot, a five-item filter out of the box",
   "authors": [
     "justfatlard"
   ],
